@@ -1,0 +1,30 @@
+<extend name="Public:base"/>
+<block name="title">ECSHOP 管理中心 - 添加新商品 </block>
+<block name="header">
+    <span class="action-span"><a href="">商品列表</a>
+    </span>
+    <span class="action-span1"><a href="">ECSHOP 管理中心</a></span>
+    <span id="search_id" class="action-span1"> - 添加新商品 </span>
+    <div style="clear:both"></div>
+</block>
+
+<block name="body">
+    <div id="tabbody-div">
+        <form enctype="multipart/form-data" action="" method="post">
+            <table width="90%" class="table" align="center">
+                <tr>
+                    <td class="label">库存量：</td>
+                    <td>
+	                    <input type="text" name="goods_number" value="{$info.goods_number}" size="30" />
+	                    <span class="require-field">*</span>
+                    </td>
+                </tr>
+            </table>
+            <input type="hidden" name="goods_id" value="{$Think.get.goods_id}">
+            <div class="button-div">
+                <input type="submit" value=" 确定 " class="button"/>
+                <input type="reset" value=" 重置 " class="button" />
+            </div>
+        </form>
+    </div>
+</block>

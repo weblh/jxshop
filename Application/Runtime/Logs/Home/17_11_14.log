@@ -1,0 +1,99 @@
+[ 2017-11-14T20:32:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0170s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\practice\jxshop\Application\Admin\Model\GoodsModel.class.php 第 381 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) E:\practice\jxshop\Application\Admin\Model\GoodsModel.class.php 第 381 行.
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_hot=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_rec=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_new=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cx_price>0 and start<1510662750 and end>1510662750 ) LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tree E:\practice\jxshop\Application\Admin\Model\CategoryModel.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (18) ) LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=6 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=6 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006622s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006723s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.172150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.172222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002872s ]
+
+[ 2017-11-14T20:32:31+08:00 ] 127.0.0.1 /Uploads/2017-10-27/thumb_59f2c077609a5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2017-11-14T20:32:31+08:00 ] 127.0.0.1 /Uploads/2017-11-03/59fc19fe009a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2017-11-14T20:32:31+08:00 ] 127.0.0.1 /Uploads/2017-11-03/thumb_59fc19fe009a3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+
+[ 2017-11-14T20:32:31+08:00 ] 127.0.0.1 /Uploads/2017-10-27/59f2c077609a5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2017-11-14T20:32:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) E:\practice\jxshop\Application\Admin\Model\GoodsModel.class.php 第 381 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) E:\practice\jxshop\Application\Admin\Model\GoodsModel.class.php 第 381 行.
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_hot=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_rec=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and is_new=1 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cx_price>0 and start<1510662751 and end>1510662751 ) LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: tree E:\practice\jxshop\Application\Admin\Model\CategoryModel.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (18) ) LIMIT 8   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=6 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=6 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2017-11-14T20:32:31+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
